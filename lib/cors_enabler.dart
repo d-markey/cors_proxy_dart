@@ -1,2 +1,2 @@
-export 'src/cors_headers.dart' hide toLowerCase, trim, isNotEmpty;
+export 'src/cors_headers.dart';
 export 'src/cors_proxy.dart';
