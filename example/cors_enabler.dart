@@ -4,9 +4,8 @@ import 'package:cors_enabler/cors_enabler.dart';
 
 void main(List<String> arguments) async {
   // Simple runner for the CORS proxy.
-  // Usage: dart run bin/cors.dart <target-url> [port]
   if (arguments.isEmpty) {
-    print('Usage: dart run example/cors.dart <target-url> [port]');
+    print('Usage: dart run example/cors_enabler.dart <target-url> [port]');
     exit(2);
   }
 

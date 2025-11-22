@@ -20,7 +20,7 @@ Example Usage
 Run from the project root:
 
 ```bash
-dart run example/cors.dart https://api.target.com/ 8080
+dart run example/cors_enabler.dart https://api.target.com/ 8080
 ```
 
 Then request:
